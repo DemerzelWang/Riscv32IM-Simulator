@@ -1,9 +1,3 @@
-# CSC3050 2025 Spring Project 3
-
-This is a forked version of Hao He's [RISC-V Simulator](https://github.com/hehao98/RISCV-Simulator).
-
-For project details, please refer to the PDF on BlackBoard.
-
 ## Project Structure
 
 - `src`: Source code
@@ -17,7 +11,3 @@ For project details, please refer to the PDF on BlackBoard.
   - `build-test-inclass.sh`
   - `build-test-fused.sh`
 - `run-simulator`: Runs all ELF files under `/riscv-elf` and outputs results to `/results`.
-
-## Expected Results
-
-813 cycles for `fmadd(sub).c` and 811 cycles for `fnm.c`
